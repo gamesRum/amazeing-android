@@ -29,7 +29,7 @@ public class MainActivity extends Activity {
         settings.setJavaScriptEnabled(true);
         settings.setDomStorageEnabled(true);
 
-        daWebView.loadUrl("http://android.amazeing.in/");
+        daWebView.loadUrl("http://amazeing.in/mobile");
     }
 
 
