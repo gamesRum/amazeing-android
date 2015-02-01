@@ -2,6 +2,7 @@ package com.gamesrum.amazeing;
 
 import android.app.Activity;
 import android.content.pm.ActivityInfo;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.Window;
@@ -29,7 +30,7 @@ public class MainActivity extends Activity {
         settings.setJavaScriptEnabled(true);
         settings.setDomStorageEnabled(true);
 
-        daWebView.loadUrl("http://amazeing.in/");
+        daWebView.loadUrl("http://production.amazeing.in/");
     }
 
 
